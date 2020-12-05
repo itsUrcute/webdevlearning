@@ -122,7 +122,6 @@ html, body{
 
 .btn{
     text-align: center;
-    vertical-align: middle;
     padding: .67em;
     cursor: pointer;
 }
@@ -157,40 +156,57 @@ html, body{
     text-align: center;
 }
 
-.tour-row div{
+.tour-table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-bottom: 7px;
+    border-collapse: collapse;
+    max-width: 850px;
+}
+
+.tour-table td{
     border-bottom: 1px solid black;
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
 
-.tour-row div:last-child{
+.tour-table .btn{
+    margin-top: 15px;
+    width: 200px;
+    font-size: .9em;
+
+}
+
+.tour-table tr:last-child td{
     border-bottom: none;
 }
 
 .tour-item{
-    display: inline-block;
-    padding:.5em;
+    padding: .9em;
+    padding-right: 0%;
+    padding-left: 0%;
 
 }
 
 .tour-date{
     color: #555;
     font-weight: bold;
-    width: 11%;
+    width: 13%;
 
 }
 
 .tour-city{
-    width: 24%;
+    width: 22%;
 
 }
 
 .tour-arena{
-    width: 42%;
+    width: 40%;
 }
 
 .tour-btn{
-    max-width: 19%;
+    max-width: 50%;
 }
 
 .btn-primary{
